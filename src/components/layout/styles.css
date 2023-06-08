@@ -1,0 +1,17 @@
+.App_Container {
+  display: grid;
+  grid-template-columns: 240px auto;
+  grid-template-rows: 1fr;
+  min-height: 100vh;
+}
+
+.section-page-content {
+  padding: 20px 120px;
+  background-color: var(--background-color-2);
+  min-height: calc(100% - 65px);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}

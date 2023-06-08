@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 12px;
+  background-color: var(--header-background-color);
+}
+
+.App-Logo-Container {
+  margin-bottom: 32px;
+}
+
+.header__buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

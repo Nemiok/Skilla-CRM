@@ -41,27 +41,12 @@ let config = {
         ]
       },
       {
-        test: /\.woff$|\.woff2$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[hash].[ext]',
-              outputPath: 'fonts/'
-            }
-          }
-        ]
+        test: /\.(jpe?g|svg|png|gif|ico|eot|ttf|woff2?)(\?v=\d+\.\d+\.\d+)?$/i,
+        type: 'asset/resource',
       },
       {
         test: /\.png?$|\.jpg?$|\.jpeg?$|\.svg$/,
         use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[hash].[ext]',
-              outputPath: 'images/'
-            }
-          },
           {
             loader: 'image-webpack-loader',
             options: {

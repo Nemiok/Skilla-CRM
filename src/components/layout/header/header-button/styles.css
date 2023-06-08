@@ -1,0 +1,33 @@
+.header-button {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 8px;
+  width: calc(100% - 16px);
+  background-color: var(--button-background-color-1);
+  border-radius: 4px;
+  padding: 13px 24px;
+  color: var(--accent-color-4);
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  transition: all .1s ease-in-out;
+}
+
+.header-button:hover {
+  background-color: var(--accent-color-3);
+}
+
+.header-button:active {
+  opacity: 0.9;
+}
+
+.header-button__value-container {
+  flex-grow: 1;
+}
+
+.header-button__svg-icon-container {
+  height: 25px;
+}
