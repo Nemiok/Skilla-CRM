@@ -15,3 +15,6 @@
 - сортировка на клиенте
 - меню - статика без функционала, активный раздел "Звонки"
 Фигма тут — https://www.figma.com/file/gvmxvc9SOiBIHmBxFkLlzy/Test-task-for-the-developer-(Copy)-(Copy)?node-id=0%3A1
+
+## Использованные технологии
+`React`, `Redux-thunk`, `Typescript`, `Webpack`, `react-router-dom`
