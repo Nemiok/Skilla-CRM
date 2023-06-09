@@ -41,7 +41,7 @@ let config = {
         ]
       },
       {
-        test: /\.(jpe?g|svg|png|gif|ico|eot|ttf|woff2?)(\?v=\d+\.\d+\.\d+)?$/i,
+        test: /\.(jpe?g|svg|png|gif|ico|eot|ttf|mp3|woff2?)(\?v=\d+\.\d+\.\d+)?$/i,
         type: 'asset/resource',
       },
       {

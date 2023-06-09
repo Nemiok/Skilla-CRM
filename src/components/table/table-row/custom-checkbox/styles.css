@@ -1,0 +1,40 @@
+input[type="checkbox"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+
+}
+
+.checkbox_input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background-color: var(--background-color-1);
+  box-shadow: 0 0 0 2px var(--accent-color-1);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.checkbox_input_active {
+  box-shadow: 0 0 0 2px var(--accent-color-3);
+  background-image: url(../../../../assets/images/checked.svg);
+}
+
+.checkbox_input:hover {
+  box-shadow: 0 0 0 2px var(--accent-color-3);
+
+}
+
+.checkbox_input:checked:hover {
+  background-image: url(../../../../assets/images/checked-hover.svg);
+
+}

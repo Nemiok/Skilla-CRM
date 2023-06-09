@@ -33,7 +33,9 @@ export interface ICallsResultField {
   person_id: number
   person_name: string
   person_surname: string
-  person_avatar: string
+  person_avatar: string,
+  audio: string,
+  selected: boolean
 }
 
 export interface IAbuseField {
@@ -59,7 +61,7 @@ export interface IAnswer {
 }
 
 export interface ICallsPageState {
-  results: ICallsResultField[] | never[],
+  results: ICallsResultField[],
   error: AxiosError | null,
   loading_status: ILoadingStatus
 }

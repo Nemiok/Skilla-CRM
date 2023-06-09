@@ -1,0 +1,89 @@
+.calls-page__table-row-user-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.table-row {
+  position: relative;
+  min-height: 65px;
+  background-color: var(--background-color-1);
+  transition: background-color .1s ease-in-out;
+  cursor: pointer;
+}
+
+.table-row:hover {
+  background-color: var(--background-color-4);
+}
+
+.table-row-active {
+  background-color: var(--background-color-4);
+
+}
+
+.table-row:has(.checkbox_input_active) {
+  background-color: var(--background-color-4);
+}
+
+.table-row:not(:last-of-type):after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  background-color: #EAF0FA;
+  width: calc(100% - 40px);
+  bottom: 0;
+  left: 40px;
+}
+
+.table-row:last-of-type .table-row__cell:first-of-type {
+  border-bottom-left-radius: 8px;
+}
+
+.table-row:last-of-type .table-row__cell:last-of-type {
+  border-bottom-right-radius: 8px;
+}
+
+.table-row__cell {
+  padding: 16px 20px;
+  font-family: 'SF Pro Display';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+}
+
+.table-row__cell:nth-of-type(1),
+.table-row__cell:nth-of-type(2),
+.table-row__cell:nth-of-type(3) {
+  width: 40px;
+}
+
+.table-row__cell:has(.audio-controller__container) {
+  padding: 8px 20px;
+}
+
+.table-row__cell:nth-of-type(2) {
+  padding-left: 40px;
+}
+
+.table-row__cell:last-of-type {
+  text-align: end;
+  padding-right: 40px;
+}
+
+.table-row__source-cell {
+  color: var(--barely-visible-text-color);
+}
+
+.table-row__checkbox-cell {
+  position: absolute;
+  left: 10px;
+  top: 22px;
+  transform: scale(0);
+  transition: all .1s ease-in-out;
+}
+
+.table-row:hover .table-row__checkbox-cell,
+.table-row:has(.checkbox_input_active) .table-row__checkbox-cell {
+  transform: scale(1);
+}

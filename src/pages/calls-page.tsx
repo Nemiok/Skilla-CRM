@@ -1,23 +1,22 @@
-import React, { useEffect } from 'react'
-import { useAppDispatch } from '../redux-store/hooks';
+import React, { useEffect, useMemo } from 'react'
+import { useAppDispatch, useAppSelector } from '../redux-store/hooks';
 import { fetchCallsListAction } from '../redux-store/actions/async-actions';
-import { setErrorNull, setLoadingState } from '../redux-store/reducers/calls-page-reducer/calls-reducer';
-import { ILoadingStatus } from '../types/calls';
 import LoadingHandler from '../hoc/loading-handler';
+import Table from '../components/table';
+import { getCalls } from '../redux-store/reducers/calls-page-reducer/selectors';
 
 const CallsPage = () => {
-
   const dispatch = useAppDispatch()
+  const calls = useAppSelector(getCalls)
+  const tableHeadings = useMemo(() => ['', 'Тип', 'Время', 'Сотрудник', 'Звонок', 'Источник', 'Оценка', 'Длительность'], [])
 
   useEffect(() => {
     dispatch(fetchCallsListAction())
   }, [])
 
-
-
   return (
     <LoadingHandler>
-      CallsPage
+      <Table tbodyData={calls} theadData={tableHeadings} />
     </LoadingHandler>
   )
 }

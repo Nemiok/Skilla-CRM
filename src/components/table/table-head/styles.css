@@ -1,0 +1,33 @@
+.table-head-item {
+  padding: 24px 20px;
+  background-color: var(--background-color-1);
+  font-family: 'SF Pro Display';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--barely-visible-text-color);
+}
+
+.table-head-item:first-of-type(1) {
+  border-top-left-radius: 8px;
+}
+
+
+.table-head-item:nth-of-type(2) {
+  padding-left: 40px;
+}
+
+.table-head-item:last-of-type {
+  border-top-right-radius: 8px;
+  padding-right: 40px;
+  text-align: end;
+}
+
+.absolute-positioned-head-item {
+  padding: 0 !important;
+  position: absolute !important;
+  border: 0 !important;
+  z-index: 10000;
+  left: 10px;
+  top: 22px;
+}

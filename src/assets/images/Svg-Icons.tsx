@@ -112,7 +112,32 @@ const SVG_ICONS = {
         <rect width="30" height="30" fill="white" />
       </clipPath>
     </defs>
+  </svg>,
+
+  CLOSE: <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#ADBFDF" />
+  </svg>,
+
+  DOWNLOAD: <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 16H13V14.1176H0V16ZM13 5.64706H9.28571V0H3.71429V5.64706H0L6.5 12.2353L13 5.64706Z" fill="#ADBFDF" />
+  </svg>,
+
+  PAUSE: <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 8H2.66667V0H0V8ZM5.33333 0V8H8V0H5.33333Z" fill="#002CFB" />
+  </svg>,
+
+  PLAY: <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0.287422 0.0693819C0.376104 0.0231631 0.475355 0 0.574754 0C0.673886 0 0.773106 0.0231631 0.862176 0.0693819L7.71255 4.55186C7.89006 4.64422 8 4.81521 8 5.00008C8 5.18493 7.89036 5.3559 7.71255 5.44814L0.862176 9.93081C0.684394 10.0231 0.465233 10.0231 0.287571 9.93081C0.109759 9.83824 0 9.6672 0 9.48246V0.51755C0 0.332781 0.10958 0.16182 0.287422 0.0693819Z" fill="#002CFB" />
+  </svg>,
+
+  CHECKED_DEFAULT: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14.2222 0H1.77778C0.791111 0 0 0.8 0 1.77778V14.2222C0 15.2 0.791111 16 1.77778 16H14.2222C15.2089 16 16 15.2 16 14.2222V1.77778C16 0.8 15.2089 0 14.2222 0ZM6.22222 12.4444L1.77778 8L3.03111 6.74667L6.22222 9.92889L12.9689 3.18222L14.2222 4.44444L6.22222 12.4444Z" fill="#002CFB" />
+  </svg>,
+
+  CHECKED_HOVER: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14.2222 0H1.77778C0.791111 0 0 0.8 0 1.77778V14.2222C0 15.2 0.791111 16 1.77778 16H14.2222C15.2089 16 16 15.2 16 14.2222V1.77778C16 0.8 15.2089 0 14.2222 0ZM6.22222 12.4444L1.77778 8L3.03111 6.74667L6.22222 9.92889L12.9689 3.18222L14.2222 4.44444L6.22222 12.4444Z" fill="#0024CB" />
   </svg>
+
 
 
 

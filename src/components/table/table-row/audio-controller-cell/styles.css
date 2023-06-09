@@ -1,0 +1,93 @@
+.audio-controller__container {
+  background-color: var(--background-color-3);
+  padding: 12px 20px;
+  border-radius: 48px;
+  max-width: 352px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 12px;
+}
+
+.play-pause-button {
+  background-color: var(--background-color-1);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.audio-controller__download-button {
+  position: relative;
+  top: 2px;
+}
+
+.audio-controller__close-button,
+.audio-controller__download-button {
+  width: 24px;
+  height: 24px;
+}
+
+.audio-controller__range {
+  width: 164px;
+}
+
+
+.custom-range {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 164px;
+  height: 4px;
+  background-color: var(--accent-color-1);
+  border-radius: 50px;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.custom-range:hover {
+  opacity: 1;
+}
+
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: var(--accent-color-3);
+  cursor: pointer;
+}
+
+.custom-range::-moz-range-thumb {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: var(--accent-color-3);
+  cursor: pointer;
+}
+
+.custom-range::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, black 0%, green calc(var(--value) / var(--max) * 100%), yellow calc(var(--value) / var(--max) * 100%), yellow 100%);
+}
+
+.custom-range::-moz-range-track {
+  background: linear-gradient(to right, black 0%, green calc(var(--value) / var(--max) * 100%), yellow calc(var(--value) / var(--max) * 100%), yellow 100%);
+}
+
+.audio-controller__controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.audio-controller__additional-buttons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.audio-controller__additional-buttons button:hover svg path,
+.audio-controller__additional-buttons a:hover svg path {
+  fill: var(--accent-color-3);
+}

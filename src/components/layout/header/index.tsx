@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header>
-      <Link to={PAGE_ROUTES.CALLS} className='App-Logo-Container'>
+      <Link to='/' className='App-Logo-Container'>
         {SVG_ICONS.APP_LOGO}
       </Link>
 

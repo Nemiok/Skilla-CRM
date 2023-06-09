@@ -7,7 +7,8 @@ export const SLICES_NAMES = {
 } as const
 
 export const MANGO_API_ROUTES = {
-  GET_CALLS: '/getList'
+  GET_CALLS: '/getList',
+  GER_RECORD: '/getRecord'
 } as const
 
 export const PAGE_ROUTES = {

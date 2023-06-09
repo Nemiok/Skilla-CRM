@@ -3,10 +3,13 @@ html {
   --button-background-color-1: #005FF8;
   --background-color-1: #FFFFFF;
   --background-color-2: #F1F4F9;
+  --background-color-3: #EAF0FA;
+  --background-color-4: #f9fafe;
 
   --nav-link-text-color: rgba(255, 255, 255, 0.6);
   --barely-visible-text-color: #899CB1;
 
+  --accent-color-1: #ADBFDF;
   --accent-color-2: rgba(255, 255, 255, 0.32);
   --accent-color-3: #002CFB;
   --accent-color-4: #FFFFFF;
