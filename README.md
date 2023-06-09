@@ -17,4 +17,4 @@
 Фигма тут — https://www.figma.com/file/gvmxvc9SOiBIHmBxFkLlzy/Test-task-for-the-developer-(Copy)-(Copy)?node-id=0%3A1
 
 ## Использованные технологии
-`React`, `Redux-thunk`, `Typescript`, `Webpack`, `react-router-dom`
+`React`, `Redux-thunk`, `Reduz-toolkit`, `Typescript`, `Webpack`, `react-router-dom`, `axios`
