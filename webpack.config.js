@@ -4,7 +4,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const path = require("path");
 
 let config = {
-  context: path.join(__dirname, '/src'), // Директория с исходным кодом приложения
+  context: path.join(__dirname, 'src'), // Директория с исходным кодом приложения
   entry: 'main.tsx', // Главный файл приложения
   output: {
     path: path.join(__dirname, 'dist'), // Куда делать оброку
@@ -74,8 +74,8 @@ let config = {
   plugins: [
     new MiniCssExtractPlugin(), // Плагин для вытаскивания собранных стилей в отдельный файл
     new HtmlWebPackPlugin({
-      template: './index.html',
-      filename: './index.html',
+      template: path.join(__dirname, 'public/index.html'),
+      filename: 'index.html',
       base: '/',
     }),
   ],
