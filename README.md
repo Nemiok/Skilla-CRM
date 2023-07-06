@@ -17,7 +17,7 @@
 Фигма тут — https://www.figma.com/file/gvmxvc9SOiBIHmBxFkLlzy/Test-task-for-the-developer-(Copy)-(Copy)?node-id=0%3A1
 
 ## Использованные технологии
-`React`, `Redux-thunk`, `Reduz-toolkit`, `Typescript`, `Webpack`, `react-router-dom`, `axios`
+`React`, `Redux-thunk`, `Redux-toolkit`, `Typescript`, `Webpack`, `react-router-dom`, `axios`
 
 ## Инструкция по запуску
 1. Откройте терминал и перейдите в корневую директорию проекта
