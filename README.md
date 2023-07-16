@@ -1,5 +1,4 @@
 ## Описание проделанной работы
- 
 - листинг звонков
 - выбор звонков
 - проигрывание записи (так как сервер не отправляет записи, я воспользовался mock файлом vivaldi.mp3)
@@ -15,6 +14,9 @@
 - сортировка на клиенте
 - меню - статика без функционала, активный раздел "Звонки"
 Фигма тут — https://www.figma.com/file/gvmxvc9SOiBIHmBxFkLlzy/Test-task-for-the-developer-(Copy)-(Copy)?node-id=0%3A1
+
+## Deploy
+https://main--jazzy-bonbon-f68193.netlify.app/calls
 
 ## Использованные технологии
 `React`, `Redux-thunk`, `Redux-toolkit`, `Typescript`, `Webpack`, `react-router-dom`, `axios`
